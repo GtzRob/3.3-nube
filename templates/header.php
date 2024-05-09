@@ -1,5 +1,5 @@
 <?php
-$url_base="https://three-3-nube-tercer-intento.onrender.com";
+$url_base="https://three-3-nube-tercer-intento.onrender.com/";
 ?>
 
 <!doctype html>
