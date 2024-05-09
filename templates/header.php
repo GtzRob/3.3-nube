@@ -27,38 +27,32 @@ $url_base="https://three-3-nube.onrender.com/";
             <!-- place navbar here -->
         </header>
 
-<nav class="navbar navbar-expand navbar-light bg-light">
-    <ul class="nav navbar-nav">
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <ul class="nav navbar-nav">
 
-        <li class="nav-item">
-            <a class="nav-link active" href="<?php echo $url_base;?>index.php" aria-current="page"
-                >sistema <span class="visually-hidden">(current)</span></a
-            >
-        </li>
-        <li class="nav-item">
-          
-            <a class="nav-link" href="<?php echo $url_base;?>secciones/empleados">Empleados</a>
-        </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="<?php echo $url_base;?>index.php" aria-current="page">Sistema <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $url_base;?>secciones/empleados">Empleados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $url_base;?>secciones/puestos">Puestos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $url_base;?>secciones/usuarios">Usuarios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cerrar sesión</a>
+                </li>
 
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="<?php echo $url_base;?>secciones/puestos">Puestos</a>
-        </li>
-
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="<?php echo $url_base;?>secciones/usuarios">Usuarios</a>
-        </li>
-
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Cerrar sesion</a>
-        </li>
-
-
-    </ul>
-</nav>
-
+            </ul>
+        </nav>
 
         <main class="container">
             <br><br>
+            <!-- Contenido principal de la página -->
+        </main>
+
+    </body>
+</html>
