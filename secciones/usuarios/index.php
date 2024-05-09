@@ -11,7 +11,7 @@ if(isset($_GET['txtID'])){
 
 }
 
-$sentencia=$conexion->prepare("SELECT * FROM `tbl_usuarios`");
+$sentencia=$conexion->prepare("SELECT * FROM tbl_usuarios");
 $sentencia->execute();
 $lista_tbl_usuarios=$sentencia->fetchAll(PDO::FETCH_ASSOC);
 
